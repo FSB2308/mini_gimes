@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-game2.css">        
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    
+<!-- الكود الثاني محسن -->
+
+<main>
+    <p class="title2">Tic Tac Toe</p>
+    <header id="header">
+        <div class="player player-active"
+        id="xPlayerDisplay"
+        onclick="choosePlayer('X')">
+        X
+        </div>
+        <h3 id="titleHeader">Choose</h3>
+        <div class="player"
+        id="oPlayerDisplay"
+        onclick="choosePlayer('O')">
+        O
+        </div>
+    </header>
+
+    <div id="board">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+
+    <button id="restartBtn">
+        Restart
+    </button>
+    
+    <button id="team">
+        Play vs Computer
+    </button>
+</main>
+
+
+
+
+    <!-- الكود الاول تنافس بشري -->
+<!-----
+    <div class="game">
+
+        <p class="title2">Tic Tac Toe</p>
+        <div class="title"><span>X O</span> Game</div>
+
+        <div class="square" id="item1" onclick="game(this.id)"></div>
+        <div class="square" id="item2" onclick="game(this.id)"></div>
+        <div class="square" id="item3" onclick="game(this.id)"></div>
+
+        <div class="square" id="item4" onclick="game(this.id)"></div>
+        <div class="square" id="item5" onclick="game(this.id)"></div>
+        <div class="square" id="item6" onclick="game(this.id)"></div>
+
+        <div class="square" id="item7" onclick="game(this.id)"></div>
+        <div class="square" id="item8" onclick="game(this.id)"></div>
+        <div class="square" id="item9" onclick="game(this.id)"></div>
+
+
+    </div>
+--->
+    <script src="game2.js"></script>
+</body>
+</html>
